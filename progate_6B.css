@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
 }
 
+/* footer CSS */
 .footer{
     background-color: #0076BD;
     color: white;
@@ -60,3 +61,30 @@ div.footer .testimoni{
     border-left: 1px solid white;
 }
 
+div.footer .social-media{
+    font-size: 15px;
+}
+
+div.footer .social-media i{
+    margin: 0 3px;
+}
+
+.bi:hover{
+    transition: all 1s;
+}
+
+.bi-facebook:hover{
+    color: #1877f2;
+}
+
+.bi-instagram:hover{
+    color: #cd486b;
+}
+
+.bi-twitter:hover{
+    color: #00acee;
+}
+
+.bi-youtube:hover{
+    color: #FF0000;
+}
