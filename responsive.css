@@ -1,0 +1,15 @@
+@media all and (max-width: 1000px){
+    div.footer .sub-container{
+        width: 50%;
+    }
+    div.footer .testimoni{
+        border: none;
+    }
+
+}
+
+@media all and (max-width: 670px) {
+    div.footer .sub-container{
+        width: 100%;
+    }
+}
