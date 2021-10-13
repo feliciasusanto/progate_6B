@@ -5,11 +5,38 @@
     div.footer .testimoni{
         border: none;
     }
-
+    div.footer h3{
+        margin: 8px 0;
+        font-size: 12px;
+    }
+    div.footer li{
+        list-style: none;
+        margin: 3px 0;
+    }
+    div.footer p, div.footer .social-media, div.footer li{
+        font-size: 10px;
+    }
+    div.footer .social-media i{
+        margin: 0 3px;
+    }
 }
 
 @media all and (max-width: 670px) {
     div.footer .sub-container{
         width: 100%;
+    }
+    div.footer h3{
+        margin: 8px 0;
+        font-size: 10px;
+    }
+    div.footer li{
+        list-style: none;
+        margin: 2px 0;
+    }
+    div.footer p, div.footer .social-media, div.footer li{
+        font-size: 8px;
+    }
+    div.footer .social-media i{
+        margin: 0 2px;
     }
 }
