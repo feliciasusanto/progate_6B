@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
 
 /* header */
 header {
-  background-color: yellow;
+  background-color: rgb(255, 255, 0);
   height: 48px;
   color: grey;
   top: 0;
@@ -73,6 +73,73 @@ header div.header-list{
     font-size: 25px;
     margin-right: 10px;
     display: none;
+}
+
+/* subscribe form */
+div.newsletter{
+    margin: 50px 0;
+}
+
+div.newsletter form{
+    width: 80%;
+    margin: 0 auto;
+    padding: 3%;
+    background: linear-gradient(90deg, rgba(9,0,156,1) 0%, rgba(7,7,182,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+}
+
+div.newsletter form h2, div.newsletter form input{
+    display: inline-block;
+}
+
+div.newsletter form h2{
+    color: white;
+    font-size: 20px;
+    margin: 0 0 1% 0;
+}
+
+div.newsletter form input[type="email"]{
+    width: 40%;
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+}
+
+div.newsletter form input[type="email"]:focus, div.newsletter form input[type="email"]:hover{
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+div.newsletter form input[type="email"]:hover{
+    transition: all 1s ease;
+    transform: scale(1.1, 1.1);
+}
+
+div.newsletter form input[type="button"]{
+    border: none;
+    padding: 6px 18px;
+    margin: 0 1.5%;
+    font-weight: bold;
+    background: transparent linear-gradient(90deg, rgba(255,255,87,1) 31%, rgba(255,255,157,1) 100%);
+    color:mediumblue;
+}
+
+@keyframes newsletter-btn-hover{
+    0%   {transform: scale(1,1);}
+    10%  {transform: scale(1.01, 1.01);}
+    20%  {transform: scale(1.02, 1.02);}
+    30%  {transform: scale(1.03, 1.03);}
+    40%  {transform: scale(1.04, 1.04);}
+    50%  {transform: scale(1.05, 1.05);}
+    60%  {transform: scale(1.06, 1.06);}
+    70%  {transform: scale(1.07, 1.07);}
+    80%  {transform: scale(1.08, 1.08);}
+    90%  {transform: scale(1.09, 1.09);}
+    100% {transform: scale(1.1, 1.1);}
+}
+
+div.newsletter form input[type="button"]:hover{
+    animation: newsletter-btn-hover 1.5s infinite alternate;
+    transition: background-color 1s ease;
 }
 
 /* footer CSS */

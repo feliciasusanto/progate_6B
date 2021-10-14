@@ -20,6 +20,19 @@
     div.footer .social-media i{
         margin: 0 3px;
     }
+    /* form subscribe */
+    div.newsletter form h2{
+        font-size: 18px;
+    }
+    div.newsletter form input[type="email"]{
+        padding: 7px 10px;
+        font-size: 10px;
+    }
+    div.newsletter form input[type="button"]{
+        padding: 4px 12px;
+        font-size: 10px;
+        margin: 0;
+    }
 }
 
 @media all and (max-width: 670px) {
@@ -55,5 +68,16 @@
     }
     div.footer .social-media i{
         margin: 0 2px;
+    }
+    /* form subscribe */
+    div.newsletter form h2{
+        font-size: 15px;
+    }
+    div.newsletter form input[type="email"]{
+        width: 60%;
+        padding: 5px 8px;
+    }
+    div.newsletter form input[type="button"]{
+        padding: 3px 8px;
     }
 }
