@@ -95,14 +95,14 @@ div.newsletter form h2, div.newsletter form input{
 div.newsletter form h2{
     color: white;
     font-size: 20px;
-    margin-right: 5%;
+    margin: 0 0 1% 0;
 }
 
 div.newsletter form input[type="email"]{
-    width: 30%;
+    width: 40%;
     border: none;
     background-color: white;
-    padding: 10px 15px;
+    padding: 8px 15px;
 }
 
 div.newsletter form input[type="email"]:focus, div.newsletter form input[type="email"]:hover{
