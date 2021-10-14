@@ -1,4 +1,5 @@
 @media all and (max-width: 1000px){
+    /* footer */
     div.footer .sub-container{
         width: 50%;
     }
@@ -22,6 +23,22 @@
 }
 
 @media all and (max-width: 670px) {
+    /* header */
+    header{
+        height: 35px;
+    }
+    header div.header-logo{
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+    header div.header-list li{
+        display: none;
+    }
+    header div.header-list i.menu{
+        display: block;
+    }
+
+    /* footer */
     div.footer .sub-container{
         width: 100%;
     }

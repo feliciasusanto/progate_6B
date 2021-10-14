@@ -70,7 +70,8 @@ header div.header-list{
 } 
 
 .header-list ul i.menu{
-    font-size: 35px;
+    font-size: 25px;
+    margin-right: 10px;
     display: none;
 }
 
