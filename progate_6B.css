@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6{
 /* header */
 header {
   background-color: yellow;
-  height: 60px;
+  height: 48px;
   color: grey;
   top: 0;
   z-index: 10;
@@ -32,25 +32,46 @@ header {
   
 .header-logo {
   float: left;
-  font-size: 28px;
-  padding: 10px 5px;
+  font-size: 25px;
+  padding: 10px 25px;
   margin-right: 50px;
 }
+
+header div.header-logo:hover{
+    cursor: pointer;
+}
   
+header div.header-list{
+    float:right;
+}
+
 .header-list li {
   list-style: none;
   float: left;
-  padding: 14px 45px;
-  font-size: 20px;
-  transition: all 0.5s;
+  padding: 15px 20px;
+  font-size: 15px;
   display: block;
 }
 
+@keyframes header-nav-hover{
+    0% {background-color: rgba(46, 44, 44, 0.1);}
+    25% {background-color: rgba(46, 44, 44, 0.225);}
+    50% {background-color: rgba(46, 44, 44, 0.45);}
+    75% {background-color: rgba(46, 44, 44, 0.675);}
+    25% {background-color: rgba(46, 44, 44, 0.9);}
+}
+
 .header-list li:hover {
-  background-color: rgba(46, 44, 44, 0.8);
   color: white;
+  text-decoration: underline;
   cursor: pointer;
-  height: 60px;
+  animation: header-nav-hover 5s infinite alternate;
+  transition: all 2s ease-in-out;
+} 
+
+.header-list ul i.menu{
+    font-size: 35px;
+    display: none;
 }
 
 /* footer CSS */
