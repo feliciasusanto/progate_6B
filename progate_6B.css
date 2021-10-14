@@ -21,6 +21,37 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
 }
 
+header {
+  background-color: yellow;
+  height: 60px;
+  color: grey;
+  top: 0;
+  z-index: 10;
+}
+  
+.header-logo {
+  float: left;
+  font-size: 28px;
+  padding: 10px 5px;
+  margin-right: 50px;
+}
+  
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 14px 45px;
+  font-size: 20px;
+  transition: all 0.5s;
+  display: block;
+}
+
+.header-list li:hover {
+  background-color: rgba(46, 44, 44, 0.8);
+  color: white;
+  cursor: pointer;
+  height: 60px;
+}
+
 /* footer CSS */
 .footer{
     background-color: #0076BD;
