@@ -3,6 +3,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+::selection{
+    color: black;
+    background: white;
+}
+
 html, body, 
 ul, ol, li,
 h1, h2, h3, h4, h5, h6{
