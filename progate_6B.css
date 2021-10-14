@@ -21,6 +21,60 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
 }
 
+/* header */
+header {
+  background-color: yellow;
+  height: 48px;
+  color: grey;
+  top: 0;
+  z-index: 10;
+}
+  
+.header-logo {
+  float: left;
+  font-size: 25px;
+  padding: 10px 25px;
+  margin-right: 50px;
+}
+
+header div.header-logo:hover{
+    cursor: pointer;
+}
+  
+header div.header-list{
+    float:right;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 15px 20px;
+  font-size: 15px;
+  display: block;
+}
+
+@keyframes header-nav-hover{
+    0% {background-color: rgba(46, 44, 44, 0.1);}
+    25% {background-color: rgba(46, 44, 44, 0.225);}
+    50% {background-color: rgba(46, 44, 44, 0.45);}
+    75% {background-color: rgba(46, 44, 44, 0.675);}
+    25% {background-color: rgba(46, 44, 44, 0.9);}
+}
+
+.header-list li:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  animation: header-nav-hover 5s infinite alternate;
+  transition: all 2s ease-in-out;
+} 
+
+.header-list ul i.menu{
+    font-size: 25px;
+    margin-right: 10px;
+    display: none;
+}
+
 /* footer CSS */
 .footer{
     background-color: #0076BD;
