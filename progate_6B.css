@@ -112,16 +112,17 @@ div.introduction div.vision, div.introduction div.mission{
     flex: auto;
     width: 50%;
     margin: 3px 5px 3px 5px;
-    padding: 5px 5%;
 }
 
 div.introduction div.vision{
     text-align: right;
+    padding: 5px 5% 5px 0;
 }
 
 div.introduction div.mission{
     text-align: left;
     border-left: 6px double rgb(255, 217, 0);
+    padding: 5px 0 5px 5%;
 }
 
 /* banner */
@@ -177,7 +178,7 @@ div.banner h2{
 
 /* subscribe form */
 div.newsletter .container{
-    padding: 50px 0 100px 0;
+    padding: 50px 0 80px 0;
 }
 
 div.newsletter form{
@@ -318,11 +319,13 @@ div.footer .social-media i{
 /*  services */
 div.services div.heading{
     text-align: center;
+    padding-top: 25px;
     padding-bottom: 20px;
 }
 
 div.services div.heading h3{
     font-size: 25px;
+    text-decoration: underline;
 }
   
 div.services .section-title { 
@@ -339,16 +342,18 @@ div.services .contents {
 div.services .contents-item {
     flex: auto;
     width: 25%;
-    margin: 20px 2%;
-    padding: 20px 20px 10px 20px;
+    margin: 0 auto;
+    padding: 20px 5px 10px 5px;
 }
   
 div.services .contents-item .profile img{
     width: 200px;
     height: 200px;
+    margin: 0 auto;
 }
   
 div.services .profile{
+    width: 100%;
     text-align: center;
 }
   

@@ -26,6 +26,25 @@
     div.introduction h2{
         font-size: 17px;
     }
+    /* services */
+    div.services div.heading h3{
+        font-size: 17px;
+    }
+    div.services .contents-item{
+        width: 40%;
+        margin: 0 2%;
+        padding: 0px 5px 10px 5px;
+    }
+    div.services .contents-item .profile img{
+        width: 150px;
+        height: 150px;
+    }
+    div.services .contents-item p{
+        font-size: 15px;
+    }
+    div.services .contents-item li{
+        font-size: 11px;
+    }
     /* footer */
     div.footer .sub-container{
         width: 50%;
@@ -49,7 +68,7 @@
     }
     /* form subscribe */
     div.newsletter form h2{
-        font-size: 18px;
+        font-size: 15px;
     }
     div.newsletter form input[type="email"]{
         padding: 7px 10px;
@@ -81,10 +100,10 @@
     div.banner{
         height: 400px;
         max-height: max-content;
-        padding: 10px 0 200px 0;
+        padding: 100px 0 200px 0;
     }
     div.banner marquee{
-        width: 97%;
+        display: none;
     }
     div.banner-cover{
         margin: 0 2%;
@@ -100,11 +119,23 @@
     }
     div.banner p{
         font-size: 10px;
+        line-height: 15px;
     }
     /* introduction */
     div.introduction div.vision, div.introduction div.mission{
         width: 100%;
         padding: 5px 3%;
+    }
+    /* services */
+    div.services .contents-item{
+        width: 50%;
+    }
+    div.services .contents-item .profile img{
+        width: 120px;
+        height: 120px;
+    }
+    div.services .contents-item p{
+        font-size: 13px;
     }
     /* footer */
     div.footer .sub-container{
@@ -126,7 +157,8 @@
     }
     /* form subscribe */
     div.newsletter form h2{
-        font-size: 15px;
+        font-size: 12px;
+        padding-bottom: 5px;
     }
     div.newsletter form input[type="email"]{
         width: 60%;
