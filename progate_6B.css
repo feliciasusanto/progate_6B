@@ -241,7 +241,7 @@ div.newsletter form input[type="button"]:hover{
 
 /* footer CSS */
 .footer{
-    background-color: #0076BD;
+    background-color: cornflowerblue;
     color: white;
     max-height: max-content;
     padding-bottom: 50px;
