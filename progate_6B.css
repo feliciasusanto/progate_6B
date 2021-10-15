@@ -111,7 +111,7 @@ div.introduction div.vision-mission{
 div.introduction div.vision, div.introduction div.mission{
     flex: auto;
     width: 50%;
-    margin: 5px;
+    margin: 3px 5px 3px 5px;
     padding: 5px 5%;
 }
 
@@ -121,7 +121,7 @@ div.introduction div.vision{
 
 div.introduction div.mission{
     text-align: left;
-    border-left: 1px solid rgba(31, 31, 34, 0.267);
+    border-left: 6px double rgb(255, 217, 0);
 }
 
 /* banner */
