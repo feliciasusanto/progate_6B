@@ -129,6 +129,7 @@
     /* services */
     div.services .contents-item{
         width: 50%;
+        border: none;
     }
     div.services .contents-item .profile img{
         width: 120px;
