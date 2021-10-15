@@ -3,11 +3,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-::selection{
-    color: black;
-    background: white;
-}
-
 html, body, 
 ul, ol, li,
 h1, h2, h3, h4, h5, h6{
@@ -60,19 +55,19 @@ header div.header-list{
 }
 
 @keyframes header-nav-hover{
-    0% {background-color: rgba(46, 44, 44, 0.1);}
-    25% {background-color: rgba(46, 44, 44, 0.225);}
-    50% {background-color: rgba(46, 44, 44, 0.45);}
-    75% {background-color: rgba(46, 44, 44, 0.675);}
-    25% {background-color: rgba(46, 44, 44, 0.9);}
+    0% {background-color: rgba(0, 118, 189, 0.3); color: grey;}
+    25% {background-color: rgba(0, 118, 189, 0.5); color: grey;}
+    50% {background-color: rgba(0, 118, 189, 0.7); color: white;}
+    75% {background-color: rgba(0, 118, 189, 0.9); color: white;}
+    100% {background-color: rgba(0, 118, 189, 0.1); color: white;}
 }
 
 .header-list li:hover {
-  color: white;
   text-decoration: underline;
   cursor: pointer;
   animation: header-nav-hover 5s infinite alternate;
   transition: all 2s ease-in-out;
+  transform: scale(1.1, 1.1);
 } 
 
 .header-list ul i.menu{
@@ -84,6 +79,7 @@ header div.header-list{
 /* introduction */
 div.introduction h2 {
     text-decoration: underline;
+    color: darkblue;
 }
 
 div.introduction p{
@@ -139,7 +135,7 @@ div.banner{
 div.banner marquee{
     text-align: center;
     letter-spacing: 1px;
-    color:black;
+    color:red;
     margin: 20px 0 30px 0;
 }
 
@@ -251,6 +247,11 @@ div.newsletter form input[type="button"]:hover{
     padding-bottom: 50px;
 }
 
+.footer ::selection{
+    color: black;
+    background: white;
+}
+
 .footer li{
     list-style: none;
     margin: 4px 0;
@@ -320,12 +321,15 @@ div.footer .social-media i{
 div.services div.heading{
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 div.services div.heading h3{
     font-size: 25px;
     text-decoration: underline;
+    display: inline-block;
+    margin: 0 auto;
+    color: darkblue;
 }
   
 div.services .section-title { 
@@ -344,6 +348,13 @@ div.services .contents-item {
     width: 30%;
     margin: 0 auto;
     padding: 20px 15px 10px 15px;
+    background: rgba(255, 255, 255, 0.473);
+    border: 1px solid rgba(0, 0, 0, 0.144);
+}
+
+div.services .contents-item * :hover{
+    transform: scale(1.025, 1.025);
+    color: darkblue;
 }
   
 div.services .contents-item .profile img{
