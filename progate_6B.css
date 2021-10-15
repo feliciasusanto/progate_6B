@@ -77,6 +77,37 @@ header div.header-list{
     display: none;
 }
 
+
+*{padding: auto; margin: auto;}
+
+.container {
+    max-width: 750px;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.center {
+    padding-bottom: 20px;
+}
+
+.colom-right {
+    padding-bottom: 20px;
+}
+
+.colom-left {
+    padding-bottom: 20px;
+}
+
+
 /* banner */
 div.banner{
     height: 600px;
