@@ -341,9 +341,9 @@ div.services .contents {
   
 div.services .contents-item {
     flex: auto;
-    width: 25%;
+    width: 40%;
     margin: 0 auto;
-    padding: 20px 5px 10px 5px;
+    padding: 20px 15px 10px 15px;
 }
   
 div.services .contents-item .profile img{
