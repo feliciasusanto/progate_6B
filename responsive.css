@@ -18,6 +18,14 @@
     div.banner p{
         font-size: 15px;
     }
+    /* introduction */
+    div.introduction p{
+        line-height: 18px;
+        font-size: 11px;
+    }
+    div.introduction h2{
+        font-size: 17px;
+    }
     /* footer */
     div.footer .sub-container{
         width: 50%;
@@ -92,6 +100,11 @@
     }
     div.banner p{
         font-size: 10px;
+    }
+    /* introduction */
+    div.introduction div.vision, div.introduction div.mission{
+        width: 100%;
+        padding: 5px 3%;
     }
     /* footer */
     div.footer .sub-container{

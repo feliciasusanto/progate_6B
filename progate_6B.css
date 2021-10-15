@@ -51,7 +51,7 @@ header div.header-list{
   list-style: none;
   float: left;
   padding: 15px 20px;
-  font-size: 15px;
+  font-size: 15px ;
   display: block;
 }
 
@@ -77,36 +77,52 @@ header div.header-list{
     display: none;
 }
 
-
-*{padding: auto; margin: auto;}
-
-.container {
-    max-width: 750px;
+div.introduction h2 {
+    color:rgba(9,0,156,1);
+    text-decoration: underline;
 }
 
-h1 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+div.introduction p{
+    line-height: 20px;
 }
 
-h3 {
-    color: blueviolet;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+div.intro-wrapper, div.newsletter .container{
+    background: rgb(200, 221, 233, 0.2);
 }
 
-
-.center {
-    padding-bottom: 20px;
+div.intro-wrapper{
+    width: 100%;
+    padding: 2%;
 }
 
-.colom-right {
-    padding-bottom: 20px;
+div.introduction div.intro-who, div.introduction div.vision-mission{
+    width: 80%;
+    margin: 2% auto;
 }
 
-.colom-left {
-    padding-bottom: 20px;
+div.introduction div.intro-who{
+    text-align: center;
 }
 
+div.introduction div.vision-mission{
+    display: flex;
+}
+
+div.introduction div.vision, div.introduction div.mission{
+    flex: auto;
+    width: 50%;
+    margin: 5px;
+    padding: 5px 5%;
+}
+
+div.introduction div.vision{
+    text-align: right;
+}
+
+div.introduction div.mission{
+    text-align: left;
+    border-left: 1px solid rgba(31, 31, 34, 0.267);
+}
 
 /* banner */
 div.banner{
@@ -136,10 +152,11 @@ div.banner div.banner-cover{
 
 div.banner p{
     width: 70%;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 25px;
     color: white;
-    background: rgba(255, 255, 255, 0.027)
+    text-align: left;
+    background: rgba(255, 255, 255, 0.089)
 }
 
 div.banner h1, div.banner h2{
@@ -159,8 +176,8 @@ div.banner h2{
 }
 
 /* subscribe form */
-div.newsletter{
-    margin: 50px 0;
+div.newsletter .container{
+    padding: 50px 0 100px 0;
 }
 
 div.newsletter form{
